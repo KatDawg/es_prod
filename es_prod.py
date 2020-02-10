@@ -15,7 +15,7 @@ training = float(training)
 hours = float(hours)
 
 # Compute needed calls for period
-calls_needed = (hours - training) / 4 *3
+calls_needed = (hours - training) / 4 * 3
 print ('\nYou need at least', calls_needed)
 
 #Results
@@ -24,7 +24,7 @@ above = calls - calls_needed
 if calls_needed > calls:
     print ('\nYou are short by ', short, '\nStill not as bad as David!') 
 elif calls_needed < calls:
-    print ('Doing good! You are over by', above)
+    print ('Doing good! You are over by', above, '\nTry and create a bigger buffer for more Stars.....')
 else:
     print ('Even for the period.')
     
