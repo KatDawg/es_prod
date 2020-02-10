@@ -3,6 +3,9 @@
 """
 Created on Mon Feb 10 11:58:40 2020
 
+Small program for Field Enineers to know where they are on Productivity
+at any time.
+
 @author: brian
 """
 
